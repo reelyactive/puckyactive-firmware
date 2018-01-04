@@ -1,13 +1,15 @@
 puckyactive-firmware
 ====================
 
-Firmware examples for Puck.js which enable puckyActive demos.
+Firmware examples for [Puck.js](https://www.puck-js.com/) which enable puckyActive demos.
 
 
 Installation
 ------------
 
 Point your browser to [www.espruino.com/ide](https://www.espruino.com/ide/).  In the Espruino Web IDE, load the firmware file from this repository (ex: sensing.js).  Connect with the Puck.js you'd like to program, then click the _Send to Espruino_ button.  Once the transfer is complete, disconnect from the Puck.js which will then begin advertising.
+
+See our detailed tutorial [Program a Puck.js with puckyActive](https://reelyactive.github.io/program-a-puckjs-with-puckyactive.html).
 
 
 License
