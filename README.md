@@ -12,6 +12,30 @@ Point your browser to [www.espruino.com/ide](https://www.espruino.com/ide/).  In
 See our detailed tutorial [Program a Puck.js with puckyActive](https://reelyactive.github.io/program-a-puckjs-with-puckyactive.html).
 
 
+Examples
+--------
+
+There are three examples, each described below.
+
+### Sensing
+
+The __sensing.js__ example will advertise all of the sensor readings available on the Puck.js in a single advertising packet.
+
+### Eddystone-UID
+
+The __eddystone-uid.js__ example will advertise an [Eddystone-UID](https://github.com/google/eddystone/tree/master/eddystone-uid) packet which includes:
+- an 80-bit _namespace_ identifier
+- a 48-bit _instance_ identifier.
+
+### Eddystone-TLM
+
+The __eddystone-tlm.js__ example will advertise an [Eddystone-TLM](https://github.com/google/eddystone/blob/master/eddystone-tlm/tlm-plain.md) packet which includes telemetry data such as:
+- battery voltage
+- temperature
+- advertising count
+- uptime
+
+
 License
 -------
 
