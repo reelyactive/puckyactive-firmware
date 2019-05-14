@@ -15,7 +15,7 @@ See our detailed tutorial [Program a Puck.js with puckyActive](https://reelyacti
 Examples
 --------
 
-There are three examples, each described below.
+There are four examples, each described below.
 
 ### Sensing
 
