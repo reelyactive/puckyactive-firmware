@@ -35,6 +35,9 @@ The __eddystone-tlm.js__ example will advertise an [Eddystone-TLM](https://githu
 - advertising count
 - uptime
 
+### Eddystone-TLM with Timeout
+
+The __eddystone-tlm-timeout.js__ example is the same as the above except that it has a programmable timeout duration.  Specifically, after a given number of seconds, the Puck.js will blink red for another given number of seconds then go to sleep.  Pushing the button will wake the device from sleep, reset the Telemetry values and resume activity until the next timeout.
 
 License
 -------
